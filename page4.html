@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>time</title>
+
+<script type="text/javascript" src="sources/jscharts.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html">Big Data Camera</a> </div>
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://mhacks.org" target="_blank">Mhacks 8</a> </li>
+      </ul>
+    </div>
+
+  </div>
+
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-15" align="center">
+    
+      <div class="jumbotron">
+        <img src="img/p2.png" width="200" height="200" alt=""/>
+        <h1 class="text-center"> <font size ="18px" color="black" face="Trebuchet"> Big Data Camera </font></h1>
+        <hr>        
+ 
+        <div class="row">
+        <p class="text-center"> <font size="10px" color="grey" face="Trebuchet"><b>REPORT</b></font></p> 
+        </div>
+
+
+
+<div class="col-sm-1 col-xs-offset-1px col-xs-2 col-md-2 col-md-offset-5 col-sm-offset-4 col-lg-78 col-lg-offset-3 col-lg-7">
+  
+  <div id="graph">Loading graph...</div>
+
+<script type="text/javascript">
+	var fileDisplayArea = document.getElementById('fileDisplayArea');
+    var rawFile = new XMLHttpRequest();
+	var result;
+	var i=0;
+    rawFile.open("GET", "t3.txt", false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+				result=allText;
+            }
+        }
+    }
+    rawFile.send(null);
+	var s=result.split("\n");
+	var a = new Array(11);
+	
+	var i;
+	for (i=0;i<11;i++){
+		a[i]=Number(s[i]);
+	}
+	
+	var myData = new Array([1996, a[0]], [1997, a[1]], [1998, a[2]], [1999, a[3]], [2000, a[4]], [2001, a[5]], [2002, a[6]], [2003, a[7]], [2004, a[8]], [2005, a[9]], [2006, a[10]]);
+	var myChart = new JSChart('graph', 'line');
+	myChart.setDataArray(myData);
+	myChart.setTitle('Numbers of People Distribution of a Day');
+	myChart.setTitleColor('#8E8E8E');
+	myChart.setTitleFontSize(15);
+	myChart.setAxisNameX('');
+	myChart.setAxisNameY('');
+	myChart.setAxisColor('#C4C4C4');
+	myChart.setAxisValuesColor('#343434');
+	myChart.setAxisPaddingLeft(100);
+	myChart.setAxisPaddingRight(120);
+	myChart.setAxisPaddingTop(50);
+	myChart.setAxisPaddingBottom(40);
+	myChart.setAxisValuesNumberX(6);
+	myChart.setGraphExtend(true);
+	myChart.setGridColor('#c2c2c2');
+	myChart.setLineWidth(6);
+	myChart.setLineColor('#9F0505');
+	myChart.setSize(550, 321);
+	myChart.setBackgroundImage('#');
+	myChart.draw();
+</script>
+</div>
+
+
+
+
+          
+        
+        <div class="row">
+		<div class="col-md-6"></div>
+		</div>
+        
+       
+       
+        <div class="row"> </div>
+       
+        <div class="text-center">
+        <div class="col-lg-2 col-sm-3 col-xs-offset-3 col-xs-3 col-md-2 col-md-offset-5 col-sm-offset-4 col-lg-offset-3">
+            <p><a class="btn btn-primary btn-lg" href="page2.html" role="button" style="font-size:25px;background-color:#008CBA">AGE </a></p>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+            <p><a class="btn btn-primary btn-lg" href="page3.html" role="button" style="font-size:25px;background-color:#008CBA">GENDER</a> </p>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+            <p><a class="btn btn-primary btn-lg" href="page4.html" role="button" style="font-size:25px;background-color:#008CBA">TIME</a> </p>
+        </div>
+        </div>
+        <div class="col-lg-2 col-lg-offset-5 col-sm-3 col-xs-offset-3 col-xs-3 col-md-2 col-md-offset-5 col-sm-offset-4">
+            <p><a class="btn btn-success btn-lg" href="index.html" role="button" style="font-size:30px">BACK</a></p>
+        </div>
+
+      	<div class="row"> </div>
+    </div>
+  </div>
+ </div>
+    
+</div>
+ 
+   
+  
+
+  
+ <footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © JJJJJ. All rights reserved. Microsoft Face API, JS.charts API Used.</p>
+        
+      </div>
+    </div>
+  </div>
+ </footer>
+
+</body>
+</html>

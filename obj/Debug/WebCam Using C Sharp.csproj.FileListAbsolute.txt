@@ -1,0 +1,15 @@
+c:\users\asus\documents\visual studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\WebCam Using C Sharp.exe.config
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\WebCam Using C Sharp.exe
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\WebCam Using C Sharp.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\AForge.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\AForge.Video.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\AForge.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\AForge.Video.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\obj\Debug\WebCam Using C Sharp.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\obj\Debug\WebCam_Using_C_Sharp.Form1.resources
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\obj\Debug\WebCam_Using_C_Sharp.Properties.Resources.resources
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\obj\Debug\WebCam Using C Sharp.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\obj\Debug\WebCam Using C Sharp.exe
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebCam Using C Sharp\WebCam Using C Sharp\obj\Debug\WebCam Using C Sharp.pdb
